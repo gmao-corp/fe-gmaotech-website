@@ -1,4 +1,27 @@
 * {
-    width: 100vh;
-    background-color: black;
+    background-color: #fff;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gmao-titulo {
+    width: 40rem;
+}
+
+.members {
+    display: flex;
+    align-items: center;
+}
+
+.foto-perfil {
+    width: 7rem;
+    border-radius: 100%;
+    margin: 10px;
 }
