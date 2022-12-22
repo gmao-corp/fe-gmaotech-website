@@ -62,19 +62,10 @@ body {
     transition: 0.4s;
 }
 
-
 .foto-perfil {
     width: 7rem;
     border-radius: 100%;
     margin: 10px;
-}
-
-.contato {
-    padding: 0;
-    width: 3rem;
-    margin: 0;
-    border-radius: 100%;
-    align-items: center;
 }
 
 .fa {
