@@ -62,17 +62,19 @@ body {
     transition: 0.4s;
 }
 
+
 .foto-perfil {
     width: 7rem;
     border-radius: 100%;
     margin: 10px;
 }
 
+
 .fa {
 
-    margin: 5px;
+    margin: 3px;
     padding: 10px;
-    font-size: 30px;
+    font-size: 20px;
     width: 1rem;
     height: 1rem;
     text-align: center;
