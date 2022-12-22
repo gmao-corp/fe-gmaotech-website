@@ -30,20 +30,38 @@ body {
 .members {
     display: flex;
     align-items: center;
+
 }
 
 .name {
     color: rgb(255, 255, 255);
     text-align: center;
     text-decoration: solid;
-    border-style: inset;
+    border-style: none;
     border-color: rgb(24, 25, 36);
     border-width: 10px;
     border-radius: 15%;
     padding: 10px;
     margin: 10px;
     box-shadow: 50px;
+    opacity: 40%;
 }
+
+.name:hover {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: solid;
+    border-style: inset;
+    border-color: rgb(24, 25, 36);
+    border-width: 30px;
+    border-radius: 15%;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 50px;
+    opacity: 100%;
+    transition: 0.4s;
+}
+
 
 .foto-perfil {
     width: 7rem;
