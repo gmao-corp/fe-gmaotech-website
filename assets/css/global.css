@@ -13,7 +13,7 @@ body {
 
 .container {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,11 +21,36 @@ body {
 }
 
 .gmao-titulo {
-  width: 50vh;
-  padding: 0;
-  margin: 1rem;
-  border-radius: 28%;
+    padding: 5rem;
 }
+
+.titulo {
+        color: #fff;
+        font-family: monospace;
+        font-weight: bolder;
+        font-size: 60px;
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: .15em solid orange; /* The typwriter cursor */
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        letter-spacing: .15em; /* Adjust as needed */
+        animation: 
+          typing 3.5s steps(30, end),
+          blink-caret .5s step-end infinite;
+      }
+      
+      
+      /* The typing effect */
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+      
+      /* The typewriter cursor effect */
+      @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: orange }
+      }
 
 .members {
   display: flex;
@@ -81,28 +106,42 @@ body {
 }
 
 .menu {
-    text-align: center;
-  }
-  
-.menu-item {
-    display: inline-block;
-  }
-
-.submenu {
-    position:absolute;
-    display:none;
+  text-align: center;
 }
 
-/* dsd */
-.menu-item:hover .submenu, .menu-item.over .submenu{display:block;}
+.menu-item {
+  display: inline-block;
+}
 
-.submenu-item{
-    display:block;
+.menu-item a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
+}
+
+.menu-item a:hover {
+  background: #333;
+  color: #fff;
+}
+
+.submenu {
+  position: absolute;
+  display: none;
+}
+
+.menu-item:hover .submenu,
+.menu-item.over .submenu {
+  display: block;
 }
 
 .submenu-item {
-    display: inline-block;
-  }
+  display: block;
+}
+
+.submenu-item {
+  display: inline-block;
+}
 
 .fa:hover {
   opacity: 0.7;
