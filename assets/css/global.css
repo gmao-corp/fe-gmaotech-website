@@ -1,106 +1,164 @@
 * {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    padding: 0;
-    margin: 0;
-
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    background-image: url('../img/low-poly-grid-haikei.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../img/low-poly-grid-haikei.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .gmao-titulo {
-    width: 50vh;
-    padding: 0;
-    margin: 1rem;
-    border-radius: 28%;
-
+    padding: 5rem;
 }
 
-.members {
-    display: flex;
-    align-items: center;
+.titulo {
+        color: #fff;
+        font-family: monospace;
+        font-weight: bolder;
+        font-size: 60px;
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: .15em solid orange; /* The typwriter cursor */
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        letter-spacing: .15em; /* Adjust as needed */
+        animation: 
+          typing 3.5s steps(30, end),
+          blink-caret .5s step-end infinite;
+      }
+      
+      
+      /* The typing effect */
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+      
+      /* The typewriter cursor effect */
+      @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: orange }
+      }
 
+.members {
+  display: flex;
+  align-items: center;
+  
 }
 
 .name {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-decoration: solid;
-    border-style: none;
-    border-color: rgb(24, 25, 36);
-    border-width: 10px;
-    border-radius: 15%;
-    padding: 10px;
-    margin: 10px;
-    box-shadow: 50px;
-    opacity: 40%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  box-shadow: 50px;
+  opacity: 40%;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 15%;
+  border-width: 10px;
 }
 
 .name:hover {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-decoration: solid;
-    border-style: inset;
-    border-color: rgb(24, 25, 36);
-    border-width: 30px;
-    border-radius: 15%;
-    padding: 10px;
-    margin: 10px;
-    box-shadow: 50px;
-    opacity: 100%;
-    transition: 0.4s;
+  border-color: #181924;
+  border-style: solid;
+  transform: scale(1.15);
+  transition: 0.5s;
+  border-radius: 15%;
+  opacity: 100%;
 }
-
 
 .foto-perfil {
-    width: 7rem;
-    border-radius: 100%;
-    margin: 10px;
+  width: 7rem;
+  border-radius: 100%;
+  margin: 10px;
 }
 
-
 .fa {
+  margin: 3px;
+  padding: 10px;
+  font-size: 20px;
+  width: 1rem;
+  height: 1rem;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: #fff;
+  color: black;
+}
 
-    margin: 3px;
-    padding: 10px;
-    font-size: 20px;
-    width: 1rem;
-    height: 1rem;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-    background: #FFF;
-    color: black;
+.menu {
+  text-align: center;
+}
+
+.menu-item {
+  display: inline-block;
+}
+
+.menu-item a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
+}
+
+.menu-item a:hover {
+  background: #333;
+  color: #fff;
+}
+
+.submenu {
+  position: absolute;
+  display: none;
+}
+
+.menu-item:hover .submenu,
+.menu-item.over .submenu {
+  display: block;
+}
+
+.submenu-item {
+  display: block;
+}
+
+.submenu-item {
+  display: inline-block;
 }
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .fa-linkedin {
-    color: #FFF;
-    background: #007bb5;
+  color: #fff;
+  background: #007bb5;
 }
 
 .fa-instagram {
-    color: #FFF;
-    background: rgb(138, 0, 218) ;
+  color: #fff;
+  background-image: linear-gradient(
+    to bottom right,
+    #515bd4,
+    #8134af,
+    #dd2a7b,
+    #feda77,
+    #f58529
+  );
 }
 
 .fa-github {
-    color: black;
-    background: #FFF ;
+  color: white;
+  background: rgb(48, 48, 48)
+  ;
 }
