@@ -1,0 +1,62 @@
+[
+  {
+    "name": "João Vieira",
+    "yearBirth": 1991,
+    "socialMedia": [
+      {
+        "linkedin": "https://www.linkedin.com/in/jvrajunior/",
+        "instagram": "https://www.instagram.com/jvrajunior/",
+        "github": "https://github.com/jvrajunior"
+      }
+    ],
+    "photo": "https://avatars.githubusercontent.com/jvrajunior"
+  },
+  {
+    "name": "Diego Santana",
+    "yearBirth": 1994,
+    "socialMedia": [
+      {
+        "linkedin": "https://www.linkedin.com/in/diego-santana-381306172/",
+        "instagram": "https://www.instagram.com/diiegosg/",
+        "github": "https://github.com/DgSantanaBr"
+      }
+    ],
+    "photo": "https://avatars.githubusercontent.com/DgSantanaBr"
+  },
+  {
+    "name": "Renato Duarte",
+    "yearBirth": 1991,
+    "socialMedia": [
+      {
+        "linkedin": "https://www.linkedin.com/in/renato-duarte-870706141/",
+        "instagram": "https://www.instagram.com/renato.r.duarte/",
+        "github": "https://github.com/RntDuarte"
+      }
+    ],
+    "photo": "https://avatars.githubusercontent.com/RntDuarte"
+  },
+  {
+    "name": "Ivan Dange Jr.",
+    "yearBirth": 1994,
+    "socialMedia": [
+      {
+        "linkedin": "https://www.linkedin.com/in/ivan-dange-junior-585820235/",
+        "instagram": "https://www.instagram.com/juniordange/",
+        "github": "https://github.com/IvanDJr"
+      }
+    ],
+    "photo": "https://avatars.githubusercontent.com/IvanDJr"
+  },
+  {
+    "name": "Roberto Coelho",
+    "yearBirth": 1989,
+    "socialMedia": [
+      {
+        "linkedin": "https://www.linkedin.com/in/roberto-coelho-473809a7/",
+        "instagram": "https://www.instagram.com/betorabbit/",
+        "github": "https://github.com/Betoc89"
+      }
+    ],
+    "photo": "https://media.licdn.com/dms/image/D4D35AQGhP6uyO_umiA/profile-framedphoto-shrink_800_800/0/1666200763967?e=1672257600&v=beta&t=TXKzC6Y9eY9Ty37xxZhDOUfGX6gicYfMlRPY4eiGe4Q"
+  }
+]
