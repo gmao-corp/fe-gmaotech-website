@@ -1,5 +1,5 @@
 .bg-game-1 {
-    background-image: url("projeto1/assets/img/bg-game-1.png");
+    background-image: url("./projeto1/assets/img/bg-game-1.png");
     background-repeat: repeat-x;
     background-size: 50%;
     width: 100%;
@@ -19,7 +19,7 @@
 }
 
 .bg-game-2 {
-    background-image: url("projeto1/assets/img/bg-game-2.png");
+    background-image: url("./assets/img/bg-game-2.png");
     background-repeat: repeat-x;
     background-size: 50%;
     width: 100%;
@@ -40,7 +40,7 @@
 }
 
 .bg-game-3 {
-    background-image: url("projeto1/assets/img/bg-game-3.png");
+    background-image: url("/assets/img/bg-game-3.png");
     background-repeat: repeat-x;
     background-size: 50%;
     width: 100%;
@@ -63,7 +63,7 @@
 }
 
 .bg-game-4 {
-    background-image: url("projeto1/assets/img/bg-game-4.png");
+    background-image: url("assets/img/bg-game-4.png");
     background-repeat: no-repeat;
     background-size: 7%;
     width: 100%;
@@ -85,7 +85,7 @@
 }
 
 .bg-game-5 {
-    background-image: url("projeto1/assets/img/bg-game-5.png");
+    background-image: url("../img/bg-game-5.png");
     background-repeat: repeat-x;
     background-size: 50%;
     width: 100%;
