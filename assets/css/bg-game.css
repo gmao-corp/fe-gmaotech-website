@@ -1,0 +1,106 @@
+.bg-game-1 {
+    background-image: url("/assets/img/bg-game-1.png");
+    background-repeat: repeat-x;
+    background-size: 50%;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    animation: bg-game-1-casas 7s infinite linear;
+}
+
+@keyframes bg-game-1-casas {
+    from {
+        background-position: 100%;
+    }
+    to {
+        background-position: 0;
+    }
+}
+
+.bg-game-2 {
+    background-image: url("/assets/img/bg-game-2.png");
+    background-repeat: repeat-x;
+    background-size: 50%;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    animation: bg-game-2-arvores 20s infinite linear;
+    z-index: -1;
+}
+
+@keyframes bg-game-2-arvores {
+    from {
+        background-position: 100%;
+    }
+    to {
+        background-position: 0;
+    }
+}
+
+.bg-game-3 {
+    background-image: url("/assets/img/bg-game-3.png");
+    background-repeat: repeat-x;
+    background-size: 50%;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    opacity: 10%;
+    animation: bg-game-3-telhados 30s infinite linear;
+    z-index: -2;
+}
+
+@keyframes bg-game-3-telhados {
+    from {
+        background-position: 100%;
+    }
+    to {
+        background-position: 0;
+    }
+}
+
+.bg-game-4 {
+    background-image: url("/assets/img/bg-game-4.png");
+    background-repeat: no-repeat;
+    background-size: 7%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 30%;
+    z-index: 1000;
+    opacity: 85%;
+    animation: bg-game-4-lua 100s infinite linear;
+}
+
+@keyframes bg-game-4-lua {
+    from {
+        background-position: 110%;
+    }
+    to {
+        background-position: -10%;
+    }
+}
+
+.bg-game-5 {
+    background-image: url("/assets/img/bg-game-5.png");
+    background-repeat: repeat-x;
+    background-size: 50%;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 50%;
+    animation: bg-game-5-estrelas 120s infinite linear;
+    z-index: -2;
+}
+
+@keyframes bg-game-5-estrelas {
+    from {
+        background-position: 100%;
+    }
+    to {
+        background-position: 0;
+    }
+}
